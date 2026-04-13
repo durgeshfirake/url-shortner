@@ -1,0 +1,121 @@
+# =========================
+# GENERAL
+# =========================
+*.log
+*.tmp
+*.swp
+*.bak
+*.out
+*.err
+*.pid
+.DS_Store
+Thumbs.db
+
+# =========================
+# ENV & SECRETS (IMPORTANT)
+# =========================
+.env
+.env.*
+*.env
+secrets/
+*.key
+*.pem
+*.crt
+
+# =========================
+# JAVA / SPRING BOOT
+# =========================
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+.mvn/
+!.mvn/wrapper/maven-wrapper.jar
+
+# =========================
+# MAVEN
+# =========================
+dependency-reduced-pom.xml
+
+# =========================
+# NODE / REACT
+# =========================
+node_modules/
+build/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+pnpm-lock.yaml
+
+# =========================
+# IDEs
+# =========================
+
+## Eclipse / STS
+.project
+.classpath
+.settings/
+.springBeans
+.sts4-cache/
+.metadata/
+
+## IntelliJ
+.idea/
+*.iws
+*.ipr
+
+## VS Code
+.vscode/
+
+# =========================
+# DOCKER
+# =========================
+docker-compose.override.yml
+*.tar
+
+# =========================
+# KUBERNETES
+# =========================
+*.kubeconfig
+
+# =========================
+# TERRAFORM
+# =========================
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.lock.hcl
+
+# =========================
+# ANSIBLE
+# =========================
+*.retry
+
+# =========================
+# LOGGING & MONITORING
+# =========================
+logs/
+*.log
+
+# =========================
+# TEST OUTPUT
+# =========================
+coverage/
+*.lcov
+
+# =========================
+# MISC
+# =========================
+*.zip
+*.gz
+*.rar
+*.7z
